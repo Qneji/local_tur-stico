@@ -8,7 +8,7 @@
     --text-primary: #1B1B1B;
     --text-secondary: #333333;
     --text-tertiary: #696969;
-    --text-headline: #E1624F;
+    --color-headline: #E1624F;
     --border-primary: #D9D9D9;
     --background-default: #F5F4F0;
     --accent-blue: #0C51A7;
@@ -17,16 +17,43 @@
     --accent-purple: #591B98;
 
     --font-family: "Open Sans", sans-serif;
-    --text-h2: bold 32px;
-    --text-h1: bold 36px;
-    --text-h3: bold 28px;
-    --text-headline: bold 16px;
+    --text-h2: 32px bold;
+    --text-h1: 36px bold;
+    --text-h3: 28px bold;
     --text-paragraph: regular 16px;
     --text-subtitle: italic 16px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 body {
-    font: var(--text-paragraph);
+    font: var(--font-family);
     color: var(--text-secondary);
     background-color: var(--background-default);
+}
+
+#page {
+    width: 1120px;
+    margin-inline: auto;
+    margin-top: 88px;
+}
+
+.headline {
+    font-weight: bold;
+    color: var(--color-headline);
+}
+
+img {
+    border-radius: 28px;
+    width: 1120px;
+    
+    object-fit: cover;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: bold;
 }

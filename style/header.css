@@ -1,0 +1,25 @@
+header {
+    width: 1120px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.tittle {
+    margin-bottom: 40px;
+}
+
+img {
+    height: 660px;
+    margin-bottom: 24px;
+}
+
+.p-header {
+    color: var(--text-tertiary);
+    text-align: center;
+    margin-bottom: 40px;
+ }

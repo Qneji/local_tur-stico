@@ -1,0 +1,10 @@
+footer {
+    margin-bottom: 48px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-top: 65px;
+}
